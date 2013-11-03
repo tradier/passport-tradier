@@ -1,4 +1,6 @@
 # passport-tradier
+[![Build](https://travis-ci.org/tradier/passport-tradier.png)](http://travis-ci.org/tradier/passport-tradier)
+[![Dependencies](https://david-dm.org/tradier/passport-tradier.png)](http://david-dm.org/tradier/passport-tradier)
 
 [Passport](http://passportjs.org/) strategy for authenticating with [Tradier](https://developer.tradier.com/)
 using the OAuth 2.0 API.
