@@ -1,5 +1,6 @@
 # passport-tradier
 [![Build](https://travis-ci.org/tradier/passport-tradier.png)](http://travis-ci.org/tradier/passport-tradier)
+[![Coverage Status](https://coveralls.io/repos/tradier/passport-tradier/badge.png)](https://coveralls.io/r/tradier/passport-tradier)
 [![Dependencies](https://david-dm.org/tradier/passport-tradier.png)](http://david-dm.org/tradier/passport-tradier)
 
 [Passport](http://passportjs.org/) strategy for authenticating with [Tradier](https://developer.tradier.com/)
