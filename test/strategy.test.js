@@ -34,7 +34,7 @@ describe('Strategy', function() {
 
     it('should fail with info', function() {
       expect(info).to.not.be.undefined;
-      expect(info.message).to.equal('Permissions error');
+      expect(info.message).to.equal('Authorization Error');
     });
   });
 
