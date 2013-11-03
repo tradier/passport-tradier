@@ -1,0 +1,6 @@
+<% if (!user) { %>
+	<h2>Welcome! Please log in.</h2>
+  <%- include login.ejs %>
+<% } else { %>
+	<h2>Hello, <%= user.username %>.</h2>
+<% } %>

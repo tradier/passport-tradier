@@ -1,0 +1,14 @@
+{
+    "profile": {
+        "id": "id-seinfeld",
+        "account": {
+            "account_number": "8675309",
+            "day_trader": "false",
+            "option_level": "3",
+            "status": "Approved",
+            "type": "margin",
+            "last_update_date": "2013-11-01T04:08:29.354Z"
+        },
+        "name": "Jerry Seinfeld"
+    }
+}
