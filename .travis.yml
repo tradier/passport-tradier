@@ -17,5 +17,5 @@ after_success:
   
 notifications:
   email:
-  - sagalloco@tradier.com
-  - jbarry@tradier.com
+  - "sagalloco@tradier.com"
+  - "jbarry@tradier.com"
