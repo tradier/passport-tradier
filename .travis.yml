@@ -14,3 +14,8 @@ script: "make ci-travis"
 
 after_success:
   - "make submit-coverage-to-coveralls"
+  
+notifications:
+  email:
+  - sagalloco@tradier.com
+  - jbarry@tradier.com
