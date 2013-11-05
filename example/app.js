@@ -3,8 +3,8 @@ var passport = require('passport')
 var util = require('util')
 var TradierStrategy = require('../../lib/strategy');
 
-var TRADIER_APP_ID = "Zg2Hw3f2JMW4a4jYSvnerBAVjooUhHJh"
-var TRADIER_APP_SECRET = "BK8szMM7CvhCFNEi";
+var TRADIER_APP_ID = "<TRADIER_CONSUMER_KEY>"
+var TRADIER_APP_SECRET = "<TRADIER_CONSUMER_SECRET>";
 
 
 // Passport session setup.
