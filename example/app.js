@@ -1,7 +1,7 @@
 var express = require('express')
 var passport = require('passport')
 var util = require('util')
-var TradierStrategy = require('../../lib/strategy');
+var TradierStrategy = require('../lib/strategy');
 
 var TRADIER_APP_ID = "<TRADIER_CONSUMER_KEY>"
 var TRADIER_APP_SECRET = "<TRADIER_CONSUMER_SECRET>";
