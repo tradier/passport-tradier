@@ -12,7 +12,7 @@ describe('Strategy#userProfile', function() {
 
     var err, profile;
     before(function(done) {
-      strategy._oauth2.get = function(url, accessToken, callback) {
+      strategy._oauth2._request = function(method, url, headers, post_body, access_token, callback) {
         var body = 'No soup for you.';
         callback(null, body, undefined);
       }

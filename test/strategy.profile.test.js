@@ -13,7 +13,7 @@ describe('Strategy#userProfile', function() {
     var profile;
 
     before(function(done) {
-      strategy._oauth2.get = function(url, accessToken, callback) {
+      strategy._oauth2._request = function(method, url, headers, post_body, access_token, callback) {
         var body = '{"profile":{"id":"id-seinfeld","account":{"account_number":"8675309","day_trader":"false","option_level":"3","status":"Approved","type":"margin","last_update_date":"2013-11-01T04:08:29.354Z"},"name":"Jerry Seinfeld"}}';
         callback(null, body, undefined);
       }
@@ -46,7 +46,7 @@ describe('encountering an error', function() {
   var err, profile;
 
   before(function(done) {
-    strategy._oauth2.get = function(url, accessToken, callback) {
+    strategy._oauth2._request = function(method, url, headers, post_body, access_token, callback) {
       var body = '{"profile":{"id":"id-seinfeld","account":{"account_number":"8675309","day_trader":"false","option_level":"3","status":"Approved","type":"margin","last_update_date":"2013-11-01T04:08:29.354Z"},"name":"Jerry Seinfeld"}}';
       callback('error', body, undefined);
     }
